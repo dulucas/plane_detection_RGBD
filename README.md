@@ -15,9 +15,8 @@ Plane detection using single RGBD image
 
 ## Quick start
 ```
-cd get_imgs_from_camera
-
 # starting record videos
+cd get_imgs_from_camera
 python3 record_camera.py
 
 # extract images from recorded file
