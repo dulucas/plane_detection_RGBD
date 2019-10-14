@@ -26,7 +26,7 @@ python3 generate_rbgdepth_imgs.py
 
 # segmenting the plane in the refered image
 cd ..
-python3 main.py
+python3 main.py -rgb /DIR/TO/RBG/IMAGE -depth /DIR/TO/DEPTH/IMAGE
 
 # segmented result will be saved in file "output.ply", which can be viewed by meshlab
 ```
