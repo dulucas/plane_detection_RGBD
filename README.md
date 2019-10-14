@@ -10,6 +10,7 @@ Plane detection using single RGBD image
 * matplotlib
 * pickle
 * cv2
+* PIL
 * ros
 * pyrealsense
 
