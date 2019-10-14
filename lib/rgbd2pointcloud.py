@@ -24,5 +24,5 @@ def rgbd2pointcloud(rgb, depth, debug_mode = False):
 			X = (u - config.centerX) * Z / config.focal_length
 			Y = (v - config.centerY) * Z / config.focal_length
 			points.append([X, Y, Z])
-			dict_depth_point[str([u, v, depth[u,v]])] = np.array([X, Y, Z]).reshape((3,1))
+			dict_depth_point[str([u, v, depth[u,v]])] = np.array([X, Y, Z, 1]).reshape((4,1))
 	return points, dict_depth_point

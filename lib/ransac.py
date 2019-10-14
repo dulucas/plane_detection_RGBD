@@ -27,8 +27,6 @@ def ransac(pointcloud):
 					break
 			iters += 1
 		count += 1
-	print(best_plane)
-	print(best_num_inliers / len(rest_point))
 	return best_plane, best_num_inliers / len(rest_point)
 
 def solvequation(point_plane):
