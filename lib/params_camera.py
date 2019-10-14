@@ -7,10 +7,6 @@ config = C
 C.user = 'Robot master'
 
 # Params of camera
-#C.intrinsic_parameters = [[1,0,0],[0,1,0],[0,0,1]]
-#C.extrinsic_parameters = np.array([[1,0,0,0],[0,1,0,0],[0,0,1,0],[0,0,0,1]]).reshape((4,4))
-#C.extrinsic_parameters = np.array([[ 0.9985719 ,  0.00921411, -0.05262385,  0.01507933], [ 0.04437823,  0.40535598,  0.9130811 , -0.77583786], [ 0.02974462, -0.91411248,  0.40436819,  0.38050523], [0., 0., 0., 1.]]).reshape((4,4))
-#np.array([[1,0,0,1],[0,1,0,1],[0,0,1,1],[1,1,1,1]]).reshape((4,4))
 C.focal_length = 500
 C.centerX = 240
 C.centerY = 320

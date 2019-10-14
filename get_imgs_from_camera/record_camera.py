@@ -41,7 +41,7 @@ cv2.COLORMAP_JET)
         cv2.waitKey(1)
         e2 = cv2.getTickCount()
         t = (e2 - e1) / cv2.getTickFrequency()
-        if t>15: # change it to record what length of video you are interested in
+        if t > 15: # change it to record what length of video you are interested in
             print("Done!")
             break
 

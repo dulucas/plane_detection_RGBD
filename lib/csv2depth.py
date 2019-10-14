@@ -11,8 +11,7 @@ def csv2depth(name):
                 result.append(row)
         result = np.array(result, dtype = np.float64)
         result[result > config.threhold_depth] = 0
-        #print(result.max())
-        depth = result / result.max() * 255
-        depth = np.array(depth, dtype = np.uint8)
-        cv2.imwrite('depth.png', depth)
+        #depth = result / result.max() * 255
+        #depth = np.array(depth, dtype = np.uint8)
+        #cv2.imwrite('depth.png', depth)
         return result
