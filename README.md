@@ -35,3 +35,4 @@ python3 main.py -rgb /DIR/TO/RBG/IMAGE -depth /DIR/TO/DEPTH/IMAGE
 ```
 python3 main.py -rgb demo/rgb.png -depth demo/depth.png
 ```
+PS : The rgb image and the depth image in the demo file do not match strictly...
