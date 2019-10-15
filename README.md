@@ -31,3 +31,7 @@ python3 main.py -rgb /DIR/TO/RBG/IMAGE -depth /DIR/TO/DEPTH/IMAGE
 
 # segmented result will be saved in file "output.ply", which can be viewed by meshlab
 ```
+## Demo
+```
+python3 main.py -rgb demo/rgb.png -depth demo/depth.png
+```
