@@ -19,7 +19,7 @@ C.source_dir = 'XXX'
 # Params for Ransac
 C.num_iters_for_plane = 1 # number of times for the 3 points selection to define the plane
 C.num_iters_for_points = 50 # number of times for random selection of points on the plane
-C.error_tolerated = 2e-4
+C.error_tolerated = 5e-5
 C.num_groups = 300 # number of selected groups for every iteration
 C.threhold_percentage = 0.6 # threhold of percentage to admit a plane
 C.threhold_depth = 3

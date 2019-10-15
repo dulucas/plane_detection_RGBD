@@ -73,7 +73,7 @@ def generate_pointcloud(rgb_file,depth_file,ply_file):
             Z = depth.getpixel((u,v)) / config.scalingfactor
             if Z==0: continue
             X = (u - config.centerX) * Z / config.focal_length
-            Y = (v - config.centerY) * Z / focalLength
+            Y = (v - config.centerY) * Z / config.focal_length
             points.append("%f %f %f %d %d %d 0\n"%(X,Y,Z,color[0],color[1],color[2]))
     file = open(ply_file,"w")
     file.write('''ply
