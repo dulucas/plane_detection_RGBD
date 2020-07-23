@@ -1,5 +1,5 @@
 # Plane_Detection_RGBD
-Plane detection using single RGBD image
+Plane detection using single RGBD image with RANSAC
 
 ## Hardware
 * realsense d415
